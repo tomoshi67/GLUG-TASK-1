@@ -1,0 +1,270 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mulsify Pricing & Plans</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="#">
+          <div class="logo">
+            <img class="img-left" src="./iamges/logo-img.jpeg" alt="">
+          </div>
+          <div>
+            <strong>Mulsify</strong>
+            <span>Listen & Produce Music</span>
+          </div>
+        </a>
+
+        <nav aria-label="Primary">
+          <a class="navlink" href="#pricing">Plans</a>
+          <a class="navlink" href="#compare">Compare</a>
+          <a class="navlink" href="#pricing">Sign up</a>
+        </nav>
+
+        <div class="actions">
+          <button class="btn" type="button" data-open-modal="signup">Log in</button>
+          <button class="btn primary" type="button" data-open-modal="signup">Start free</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Pricing that fits your music journey.</h1>
+        <p class="lead">
+          Choose the perfect plan to listen, create, and collaborate on your music projects.
+        </p>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Plans</h2>
+          <p>Simple pricing for musicians, producers, and creators.</p>
+        </div>
+
+        <div class="plans" >
+          <article class="plan" >
+            <div class="top">
+              <h3>Free</h3>
+              <span class="badge">Get started</span>
+            </div>
+            <div class="price">$0 <small>/ month</small></div>
+            <p class="desc">Stream music and try basic production tools.</p>
+            <div class="cta">
+              <button class="btn" type="button" data-open-modal="signup">Sign up</button>
+            </div>
+            <ul class="features">
+              <li><span class="check">✓</span> Stream music</li>
+              <li><span class="check">✓</span> Basic production tools</li>
+              <li><span class="check">✓</span> 1 project</li>
+              <li><span class="check">✓</span> Community access</li>
+            </ul>
+          </article>
+
+          <article class="plan featured">
+            <div class="top">
+              <h3>Pro</h3>
+              <span class="badge">Most popular</span>
+            </div>
+            <div class="price">$19 <small>/ month</small></div>
+            <p class="desc">Unlimited projects + advanced tools for serious creators.</p>
+            <div class="cta">
+              <button class="btn primary" type="button" data-open-modal="signup" data-plan="pro">Choose Pro</button>
+            </div>
+            <ul class="features">
+              <li><span class="check">✓</span> Unlimited streaming</li>
+              <li><span class="check">✓</span> Advanced production tools</li>
+              <li><span class="check">✓</span> Unlimited projects</li>
+              <li><span class="check">✓</span> Collaboration features</li>
+            </ul>
+          </article>
+
+          <article class="plan">
+            <div class="top">
+              <h3>Enterprise</h3>
+              <span class="badge">Custom</span>
+            </div>
+            <div class="price">Contact us</div>
+            <p class="desc">For studios, labels, and music teams that need custom workflows.</p>
+            <div class="cta">
+              <a class="btn" href="mailto:musicapp.support@gmail.com">Contact sales</a>
+            </div>
+            <ul class="features">
+              <li><span class="check" aria-hidden="true">✓</span> Custom integrations</li>
+              <li><span class="check" aria-hidden="true">✓</span> Dedicated support</li>
+              <li><span class="check" aria-hidden="true">✓</span> Enterprise-grade security</li>
+              <li><span class="check" aria-hidden="true">✓</span> Team management tools</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="compare" class="compare">
+          <div class="compare-head">
+            <h3>Compare Plans</h3>
+            <p>See how each plan stacks up to help you decide.</p>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Free</th>
+                <th>Pro</th>
+                <th>Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Music streaming</td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Production tools</td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Projects limit</td>
+                <td class="limit">1</td>
+                <td class="limit">Unlimited</td>
+                <td class="limit">Unlimited</td>
+              </tr>
+              <tr>
+                <td>Collaboration</td>
+                <td><span class="no">✕</span></td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Priority support</td>
+                <td><span class="no">✕</span></td>
+                <td><span class="yes">✓</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Custom integrations</td>
+                <td><span class="no">✕</span></td>
+                <td><span class="no">✕</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+              <tr>
+                <td>Enterprise security</td>
+                <td><span class="no">✕</span></td>
+                <td><span class="no">✕</span></td>
+                <td><span class="yes">✓</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sign-up Modal -->
+    <section id="signup" class="modal" aria-hidden="false">
+      <div class="modal__backdrop" data-close-modal></div>
+
+      <div class="modal__panel" >
+        <div class="modal__top">
+          <div>
+            <h2 id="signupTitle">Create your account</h2>
+            <p class="modal__sub" id="planLine">Plan: Free</p>
+          </div>
+          <button class="iconbtn" type="button"  data-close-modal>✕</button>
+        </div>
+
+        <form class="form" id="signupForm">
+          <div class="field">
+            <label for="fullName">Full name</label>
+            <input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="e.g., Amina Khan" required />
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="e.g., +1 555 0123" required />
+          </div>
+
+          <div class="field">
+            <label for="email">Gmail</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="yourname@gmail.com" required />
+            <p class="hint">Use a Gmail address (ends with @gmail.com).</p>
+          </div>
+
+          <!-- Payment fields (only shown for Pro) -->
+          <div class="payment" id="paymentBlock">
+            <div class="payment__head">
+              <strong>Payment required</strong>
+              <span class="payment__pill">Pro – $19 / month</span>
+            </div>
+
+            <div class="field">
+              <label for="card">Card number</label>
+              <input id="card" name="card" inputmode="numeric" placeholder="1234 5678 9012 3456" />
+            </div>
+
+            <div class="split">
+              <div class="field">
+                <label for="exp">Expiry</label>
+                <input id="exp" name="exp" placeholder="MM/YY" />
+              </div>
+              <div class="field">
+                <label for="cvc">CVC</label>
+                <input id="cvc" name="cvc" inputmode="numeric" placeholder="123" />
+              </div>
+            </div>
+
+            <p class="hint">Demo-only UI. No payment is processed.</p>
+          </div>
+
+          <div class="form__actions">
+            <button class="btn primary" type="submit" id="submitBtn">Create account</button>
+            <a class="btn" href="mailto:mulsifyapp.support@gmail.com">Need help? Email musicapp.support@gmail.com</a>
+          </div>
+
+          <p class="fineprint" id="fineprint">
+            By continuing, you agree to our Terms and Privacy Policy.
+          </p>
+
+          <p class="success" id="successMsg" >
+            Thanks! Your info was captured (front-end demo). You can now wire this form to a backend later.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="foot">
+        <div>
+          <strong>Mulsify</strong>
+          <div class="foot__muted">Simple pricing to help you create and enjoy music.</div>
+        </div>
+        <div class="foot__right">
+          <div>Contact: <a href="mailto:musicapp.support@gmail.com">Mulsify.support@gmail.com</a></div>
+          <div class="foot__muted">Privacy · Terms · Support</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
